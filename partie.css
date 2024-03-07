@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 160px;
+    z-index: 999;
+    position: fixed;
+}
+header>a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(103, 25, 175);
+}
+span.logo{
+    font-size:20px;
+    color: orange;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+.navigation a:hover{
+    color: orange;
+    font-size: 21px;
+}
+section{
+    padding: 150px 150px;
+    width: 100%;
+    height: 625px;
+}
+.photo{
+    background: url(photo1.jpg)  no-repeat;
+    background-size: 100% 625px;
+}
+.photo h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    padding-bottom: 10px;
+}
+.photo h1{
+    font-size: 50px;
+    color: rgb(17, 17, 65);
+    padding-bottom: 10px;
+}
+span.title{
+    font-size:25px ;
+    color: rgb(161, 190, 253);
+}
+.photo>a{
+    text-decoration: none;
+    font-size: xx-large;
+    font-family:initial;
+    color:rgb(103, 25, 175);
+    background-color: rgb(235, 215, 107);
+    padding: 10px;
+    border-radius: 15px;
+}
+.midya{
+    margin-top: 15px;
+}
+.midya a{
+    font-size: 30px;
+    padding: 15px;
+    color: beige;
+}
+
+.midya a:hover{
+    font-size:28px ;
+    color: rgb(161, 190, 253);
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    color:rgb(46, 78, 148) ;
+    font-size: 2.51em;
+    margin-bottom: 30px;
+}
+#services >h2{
+    position: relative;
+    top: -70px;
+}
+#services{
+    position: relative;
+    top:-54px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 19em;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    margin: 15px;
+    padding: 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.icon{
+    font-size:100px;
+    color:rgb(161, 190, 253) ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.text h2{
+    color: rgb(235, 215, 107);
+    text-align: center;
+}
+.text p{
+    text-align: center;
+}
+.projects{
+    background-color: rgb(116, 95, 173);
+    height: 750px;
+}
+.projects h2{
+    position: relative;
+    top: -100px;
+}
+#pos-projects{
+    position: relative;
+    top: -100px;
+}
+.zitch{
+    border: 1px solid #fff;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.zitch:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.zitch:hover .image{
+    opacity: 0.9;
+}
+.por-info {
+    font-size: small;
+    padding-top: 10px;
+}
+.prod {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod a{
+    text-decoration: none;
+    color: blue;
+}
+.prod a:hover{
+    transition: 0.7s ease;
+    color: orange;
+    font-size: large;
+}
+.cnt{
+    width: 19em;
+    margin: 20px;
+    box-shadow: 0 -5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.cnt:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.Contact >h2{
+    position: relative;
+    top: -60px;
+}
+#pos-contact{
+    position: relative;
+    top: -20px;
+}
+.final{
+    width: 100%;
+    background-color:rgb(116, 95, 173) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.final p{
+    font-size: large;
+    font-weight: bold;
+}
+.final span{
+    color: rgb(161, 190, 253);
+}
+.fin a {
+    color: rgb(161, 190, 253);
+    font-size: 20px;
+    padding: 15px;
+}
+.fin a:hover{
+    color:  rgb(235, 215, 107);;
+}
